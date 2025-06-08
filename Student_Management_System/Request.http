@@ -1,0 +1,25 @@
+### GET request to example server
+GET http://localhost:8080
+
+###
+POST http://localhost:8080/api/student
+Content-Type: application/json
+
+{
+  "name": "chouket",
+  "email": "ali@example.com",
+  "subjectIds": [2, 5]
+}
+
+###
+
+POST http://localhost:8080/api/subject
+Content-Type: application/json
+
+{ "name": "fpga" }
+
+###
+GET http://localhost:8080/api/subject
+
+###
+GET http://localhost:8080/api/student
